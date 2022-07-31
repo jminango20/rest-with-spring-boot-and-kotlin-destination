@@ -1,7 +1,6 @@
 package br.com.juan.model
 
 import jakarta.persistence.*
-import java.io.Serializable
 
 @Entity
 @Table(name = "person")
@@ -21,5 +20,4 @@ data class Person(
 
     @Column(nullable = false, length = 6)
     var gender:  String = "",
-
 )
