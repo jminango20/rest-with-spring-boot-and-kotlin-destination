@@ -1,5 +1,8 @@
 package br.com.juan.services
 
+import br.com.juan.exception.ResourceNotFoundException
+import br.com.juan.model.Person
+import br.com.juan.repository.PersonRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
